@@ -14,9 +14,7 @@
 
     <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
 
-	
-	<!-- local -->
-	 <property name="connection.url">jdbc:postgresql://localhost:5432/hibernate-test</property>
+    <property name="connection.url">jdbc:postgresql://localhost:5432/hibernate-test</property>
     <property name="connection.username">user</property>
     <property name="connection.password">password</property>
 
@@ -34,27 +32,17 @@
     <property name="hbm2ddl.auto">update</property>
     <!-- <property name="hbm2ddl.auto">validate</property> -->
 	
-	<property name="hibernate.jdbc.lob.non_contextual_creation">true</property>
+    <property name="hibernate.jdbc.lob.non_contextual_creation">true</property>
 	
 
-   
    <!-- The mapping information of entities -->
     
 	<mapping class="hibernate.simple.examples.entity.Role" /> 
 	<mapping class="hibernate.simple.examples.entity.UniUser" /> 
 	<mapping class="hibernate.simple.examples.entity.Professor" /> 
 	<mapping class="hibernate.simple.examples.entity.Course" /> 
-    <mapping class="hibernate.simple.examples.entity.Student" /> 
-
-
-
-	 
-
-	 
-
-
-   
-
+    	<mapping class="hibernate.simple.examples.entity.Student" />
+	
 
 </session-factory>
 </hibernate-configuration>
