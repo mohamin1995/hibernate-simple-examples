@@ -41,7 +41,8 @@
 	<mapping class="hibernate.simple.examples.entity.UniUser" /> 
 	<mapping class="hibernate.simple.examples.entity.Professor" /> 
 	<mapping class="hibernate.simple.examples.entity.Course" /> 
-    	<mapping class="hibernate.simple.examples.entity.Student" />
+    <mapping class="hibernate.simple.examples.entity.Student" />
+	<mapping class="hibernate.simple.examples.entity.Employee" />
 	
 
 </session-factory>
